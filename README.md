@@ -6,7 +6,7 @@ Built using:
 - Node.js
 - [Discord.js](https://discord.js.org/)
 - Docker
-- Google Cloud Speech to Text, and Translate
+- Google Cloud Translate and Speech to Text
 - CI/CD Pipeline deployed using Google Cloud Build/Run
 - AWS ECR, Lightsail/ECS for cheaper alternative
 - NGINX

@@ -14,7 +14,7 @@ Built using:
 
 # For Setup -
 - Replace necessary variables in `./bot/utils.js`, specifically project id and source/target language
-- "auth_key.json" Google Cloud key must be present in `./bot`
+- "auth_key.json" Google Cloud Service key must be present in `./bot`
 - Rename images in docker-compose.yml to your AWS/Google Cloud container registery image names to make pushing easier
 - Can be built into docker containers locally using
 `docker-compose up`

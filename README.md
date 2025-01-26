@@ -18,7 +18,7 @@ Built using:
 - Rename images in docker-compose.yml to your AWS/Google Cloud container registery image names to make pushing easier
 - Can be built into docker containers locally using
 `docker-compose up`
-- Then login push, and deploy with the following envirenment variables (AWS Lightsail and Google Cloud run make this very easy)
+- Then login, push, and deploy with the following envirenment variables (AWS Lightsail and Google Cloud run make this very easy)
 
 <br/>
 The server image will need a public URL endpoint accessible through whatever platform you are using, which will be where translations are displayed

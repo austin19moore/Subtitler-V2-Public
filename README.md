@@ -32,3 +32,6 @@ For Bot image:
 - MYSQL_PASS : database user password
 - MYSQL_DB : database name
 - SERVER_URL : Your public server image URL
+
+# CI/CD Pipeline using Google Cloud
+Can be setup by pushing to a private Github repository, then linking inside of Google Cloud Build to auto-trigger a build on merge to the main branch, and automating deployment on Google Cloud run on build success.

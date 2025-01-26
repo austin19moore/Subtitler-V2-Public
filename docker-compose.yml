@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  bot:
+    image: url.amazonaws.com/subtitler/bot
+    build: ./bot
+  server:
+    image: url.amazonaws.com/subtitler/server
+    build: ./server
+    ports:
+      - "80:80"
+  nginx:
+      image: url.amazonaws.com/subtitler/nginx
+      build: ./bot/nginx
+      ports:
+          - "8080:8080"

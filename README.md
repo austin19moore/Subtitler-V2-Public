@@ -13,7 +13,7 @@ Built using:
 - Websockets to deliver realtime content updates from container to container
 
 # System Diagram
-![image](https://github.com/user-attachments/assets/ed2e52df-d8f0-4608-98f3-d47d573f99c4)
+![image](https://github.com/user-attachments/assets/22f34fe2-4f18-458d-bbdb-9de56629b482)
 <br/>
 
 # For Setup -
@@ -23,8 +23,8 @@ Built using:
 - Can be built into docker containers locally using
 `docker-compose up`
 - Then login, push, and deploy with the following envirenment variables (AWS Lightsail and Google Cloud run make this very easy)
-
 <br/>
+
 The server image will need a public URL endpoint accessible through whatever platform you are using, which will be where translations are displayed
 <br/>
 
@@ -36,6 +36,7 @@ For Bot image:
 - MYSQL_PASS : database user password
 - MYSQL_DB : database name
 - SERVER_URL : Your public server image URL
+<br/>
 
 # CI/CD Pipeline using Google Cloud
 Can be setup by pushing to a private Github repository, then linking inside of Google Cloud Build to auto-trigger a build on merge to the main branch, and automating deployment on Google Cloud run on build success.

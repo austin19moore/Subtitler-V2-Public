@@ -2,6 +2,10 @@
 Transcribes and translates each user of a Discord call in realtime to a public URL endpoint, with support for model adaptation.
 <br/>
 
+# System Diagram
+![image](https://github.com/user-attachments/assets/ed2e52df-d8f0-4608-98f3-d47d573f99c4)
+<br/>
+
 Built using:
 - Node.js
 - [Discord.js](https://discord.js.org/)

@@ -1,3 +1,6 @@
+[Demo](https://www.youtube.com/watch?v=dXIyBzIQBdI)
+<br/>
+
 # Subtitler-V2
 Transcribes and translates each user of a Discord call in realtime to a public URL endpoint, with support for model adaptation.
 <br/>

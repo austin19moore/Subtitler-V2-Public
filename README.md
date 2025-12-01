@@ -15,15 +15,15 @@ Translation/transcription support running through any configurable mix of openai
 <br/>
 
 # Envirenment Variables:
-PROJECT_ID (google cloud project id)
-ISLOCAL (for dev)
-DISCORD_TOKEN
-DEEPL_AUTH_KEY
-OPENAI_API_KEY
-MYSQL_HOST
-MYSQL_USER
-MYSQL_PASS
-MYSQL_DB
+- PROJECT_ID (google cloud project id)
+- ISLOCAL (for dev)
+- DISCORD_TOKEN
+- DEEPL_AUTH_KEY
+- OPENAI_API_KEY
+- MYSQL_HOST
+- MYSQL_USER
+- MYSQL_PASS
+- MYSQL_DB
 
 # Dev
 Can make local docker containers by work commenting/uncommenting lines in

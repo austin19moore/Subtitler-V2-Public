@@ -1,4 +1,4 @@
-# subtitler-v2
+# Subtitler-V2
 Transcribes and translates each user of a Discord call in realtime to a public URL endpoint, with support for model adaptation.
 Translation/transcription support running through any configurable mix of openai whisper, Google Cloud transcribe/translate, and deepl
 <br/>

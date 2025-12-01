@@ -5,6 +5,7 @@ Translation/transcription support running through any configurable mix of openai
 
 # System Diagram
 ![image](https://github.com/user-attachments/assets/22f34fe2-4f18-458d-bbdb-9de56629b482)
+<br/>
 
 # For Setup -
 - Provide necessary env variables in deployment
@@ -24,8 +25,10 @@ Translation/transcription support running through any configurable mix of openai
 - MYSQL_USER
 - MYSQL_PASS
 - MYSQL_DB
+<br/>
 
 # Dev
 Can make local docker containers by work commenting/uncommenting lines in
 'server\src\App.jsx'
 'bot\nginx\default.conf'
+<br/>

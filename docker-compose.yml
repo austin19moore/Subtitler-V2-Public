@@ -2,15 +2,23 @@ version: "3"
 
 services:
   bot:
-    image: url.amazonaws.com/subtitler/bot
+    image: YOUR_ECR_LOCATION/subtitler/bot
+    # image: us-south1-docker.pkg.dev/subtitler-444321/subtitler/bot
+    #######################################################
+    # make local work
+    environment:
+      DISCORD_TOKEN: ""
+    #######################################################
     build: ./bot
+    ports:
+      - "8090:8090"
   server:
-    image: url.amazonaws.com/subtitler/server
+    image: YOUR_ECR_LOCATION/subtitler/server
     build: ./server
     ports:
       - "80:80"
   nginx:
-      image: url.amazonaws.com/subtitler/nginx
+      image: YOUR_ECR_LOCATION/subtitler/nginx
       build: ./bot/nginx
       ports:
           - "8080:8080"

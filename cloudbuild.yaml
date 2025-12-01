@@ -2,7 +2,7 @@ steps:
   # running docker-compose
   - name: 'docker/compose:latest'
     args: ['up', '-d']
-images: ['region-docker.pkg.dev/project/subtitler/bot', 'region-docker.pkg.dev/project/subtitler/server', 'region-docker.pkg.dev/project/subtitler/nginx']
+images: ['location/project/subtitler/bot', 'location/project/subtitler/server', 'location/project/subtitler/nginx']
 
 options:
   logging: CLOUD_LOGGING_ONLY

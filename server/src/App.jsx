@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 import "./App.css";
 
 function App() {
-  // google cloud
-  // const URL = "wss://URL.run.app";
-  // aws
-  const URL = "wss://URL.cs.amazonlightsail.com";
+  // aws ---
+  const URL = "wss://{nginx_container_url}"
+
+  // local ---
+  // const URL = "ws://localhost:8090";
+
   const [transcriptionByUser, setTranscriptionByUser] = useState({});
   const [ws, setWs] = useState(new WebSocket(URL));
   const pathName = window.location.pathname.replace("/", "");

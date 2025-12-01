@@ -29,6 +29,6 @@ Translation/transcription support running through any configurable mix of openai
 
 # Dev
 To make local docker containers work: comment/uncomment lines in
-'server\src\App.jsx'
-'bot\nginx\default.conf'
+- `server\src\App.jsx`
+- `bot\nginx\default.conf`
 <br/>

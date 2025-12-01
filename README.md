@@ -7,7 +7,7 @@ Translation/transcription support running through any configurable mix of openai
 ![image](https://github.com/user-attachments/assets/22f34fe2-4f18-458d-bbdb-9de56629b482)
 <br/>
 
-# For Setup -
+# For Setup
 - Provide necessary envirenment variables in deployment
 - "auth_key.json" Google Cloud Service key must be present in `./bot`
 - Rename images in docker-compose.yml to your AWS/Google Cloud container registery image names to make pushing easier
@@ -15,7 +15,7 @@ Translation/transcription support running through any configurable mix of openai
 - Then login, push, and deploy with the following envirenment variables (AWS Lightsail and Google Cloud run make this very easy)
 <br/>
 
-# Envirenment Variables:
+# Envirenment Variables
 - PROJECT_ID (google cloud project id)
 - ISLOCAL (for local development)
 - DISCORD_TOKEN
